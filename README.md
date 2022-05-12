@@ -32,6 +32,11 @@ Copy the markdown template files to the newly created .github folder
 find */ -iname '*.md' -exec cp {} ${MY_TARGET_REPO_FOLDER}/.github/ISSUE_TEMPLATE \;
 ```
 
+Copy the config file to the newly created .github folder
+```shell
+cp Config/config.yml ${MY_TARGET_REPO_FOLDER}/.github/ISSUE_TEMPLATE/
+```
+
 ---
 # License
 [![license](https://img.shields.io/github/license/ivan-pinatti/docker-torrent-box?style=plastic)](https://github.com/ivan-pinatti/docker-torrent-box/blob/master/LICENSE)
