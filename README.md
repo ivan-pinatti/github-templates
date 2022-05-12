@@ -1,8 +1,32 @@
-# github-templates
-Github Template Files
+# Github Markdown Template Files for Bugs, New Features, Pull Requests, Questions, etc...
 
-![GitHub issues](https://img.shields.io/github/issues-raw/ivan-pinatti/docker-torrent-box-with-vpn?logo=Github&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/ivan-pinatti/github-templates?logo=Github&style=for-the-badge)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/ivan-pinatti?logo=Github&style=for-the-badge)
+
+The files in this repo are markdown templates for Github.\
+You can use them to configure a already created repository and improved its usability.
+
+If you are trying to template Github repos for your organization, please check the official documentation at https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+
+---
+# Usage
+
+On your shell follow the steps below.
+
+Define your repo folder
+```shell
+MY_TARGET_REPO_FOLDER=/home/user/workspace/myrepo
+```
+
+Create the **.github folder** if it doesn't exist yet
+```shell
+mkdir --parents ${MY_TARGET_REPO_FOLDER}/.github/templates
+```
+
+Copy the markdown template files to the newly created .github folder
+```shell
+find */ -iname '*.md' -exec cp {} ${MY_TARGET_REPO_FOLDER}/.github/templates \;
+```
 
 ---
 # License
