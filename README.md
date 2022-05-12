@@ -15,17 +15,17 @@ On your shell follow the steps below.
 
 Define your repo folder
 ```shell
-MY_TARGET_REPO_FOLDER=/home/user/workspace/myrepo
+MY_TARGET_REPO_FOLDER=/home/${USER}/workspace/github-template
 ```
 
 Create the **.github folder** if it doesn't exist yet
 ```shell
-mkdir --parents ${MY_TARGET_REPO_FOLDER}/.github/templates
+mkdir --parents ${MY_TARGET_REPO_FOLDER}/.github/ISSUE_TEMPLATE
 ```
 
 Copy the markdown template files to the newly created .github folder
 ```shell
-find */ -iname '*.md' -exec cp {} ${MY_TARGET_REPO_FOLDER}/.github/templates \;
+find */ -iname '*.md' -exec cp {} ${MY_TARGET_REPO_FOLDER}/.github/ISSUE_TEMPLATE \;
 ```
 
 ---

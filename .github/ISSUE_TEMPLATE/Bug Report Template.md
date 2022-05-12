@@ -1,0 +1,1 @@
+../../Bug Report/Bug Report Template.md
