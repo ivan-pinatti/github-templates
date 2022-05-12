@@ -6,7 +6,11 @@
 The files in this repo are markdown templates for Github.\
 You can use them to configure a already created repository and improved its usability.
 
+If you are starting a new repo from scratch, I do recommend using this other repository; https://github.com/ivan-pinatti/github-template and use the __'Use this template'__ button.
+
 If you are trying to template Github repos for your organization, please check the official documentation at https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository
+
+All the files here are submitted to the other repo, https://github.com/ivan-pinatti/github-template, and it is possible to check how they will work by trying to submit an issue or a pull request.
 
 ---
 # Usage
