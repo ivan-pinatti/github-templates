@@ -22,7 +22,7 @@ Define your repo folder
 MY_TARGET_REPO_FOLDER=/home/${USER}/workspace/github-template
 ```
 
-Create the **.github folder** if it doesn't exist yet
+Create the **.github folder** and the **ISSUE_TEMPLATE** folders if they don't exist yet
 ```shell
 mkdir --parents ${MY_TARGET_REPO_FOLDER}/.github/ISSUE_TEMPLATE
 ```
